@@ -1,2 +1,2 @@
 # ViktoriaDent
-Website for dental Clinic
+Website for Dental Clinic
