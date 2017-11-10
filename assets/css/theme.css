@@ -1366,7 +1366,7 @@ blockquote cite {
   opacity: 1;
 }
 
-@-keyframes blink {
+@keyframes blink {
   0% {
     opacity: 1;
   }
@@ -3050,8 +3050,7 @@ blockquote cite {
   margin-left: -300px;
   margin-top: -60px;
   -webkit-transition: all .7s;
-  -webkit-transition: all  all .7s;
-  transition: all  all .7s;
+  transition: all .7s;
 }
 
 .screen-end .loader-text {
@@ -3067,7 +3066,7 @@ blockquote cite {
   transition: all .7s;
   background-color: #333;
   position: fixed;
-  top: 0%;
+  top: 0;
   left: 0;
   width: 100%;
   height: 90%;
@@ -3079,11 +3078,10 @@ blockquote cite {
 
 .sl-bottom {
   -webkit-transition: all .7s;
-  -webkit-transition: all  all .7s;
-  transition: all  all .7s;
+  transition: all .7s;
   background-color: #333;
   position: fixed;
-  bottom: 0%;
+  bottom: 0;
   left: 0;
   width: 100%;
   height: 90%;

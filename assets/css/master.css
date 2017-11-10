@@ -10,6 +10,7 @@ Primary use:  Cenaz
 
 /* FONTS*/
 @import 'https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i|Lato:100,100i,300,300i,400,400i,700,700i,900,900i|PT+Serif:400,400i,700,700i';
+@import 'https://fonts.googleapis.com/css?family=Montserrat&subset=cyrillic';
 @import '../fonts/font-awesome-4.6.3/css/font-awesome.min.css';
 @import '../fonts/stroke/style.css';
 @import '../fonts/elegant/style.css';
@@ -36,3 +37,4 @@ Primary use:  Cenaz
 @import 'theme.css';
 @import 'color.css';
 @import 'responsive.css';
+@import 'custom.css';
