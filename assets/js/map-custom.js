@@ -32,7 +32,7 @@
                 // Create the Google Map using our element and options defined above
                 var map = new google.maps.Map(mapElement, mapOptions);
 
-                var image = 'assets/media/general/map-marker.png';
+                var image = 'assets/img/map-marker.png';
                 // Let's also add a marker while we're at it
                 var marker = new google.maps.Marker({
                     position: new google.maps.LatLng(40.6700, -73.9400),

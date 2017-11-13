@@ -35,10 +35,10 @@ button:focus {
 }
 
 .custom-descr {
-	max-width: 405px;
+	max-width: 470px;
 	color: #000;
 	font-size: 11px;
-	line-height: 1;
+	line-height: 1.4;
 	letter-spacing: 0.025em;
 	text-transform: uppercase;
 }
@@ -46,7 +46,7 @@ button:focus {
 .has-bg {
 	position: relative;
 	z-index: 1;
-	background: #ffffff url("../media/components/b-backgrounds/bg-1.jpg") no-repeat center;
+	background: #ffffff url("../img/main-bg.jpg") no-repeat;
 	-webkit-background-size: cover;
 	background-size: cover;
 }
@@ -106,6 +106,9 @@ body:not(.header-demo) .navbar-scrolling .navbar-right {
 }
 
 /* Sections */
+.section-first {
+	padding-bottom: 0;
+}
 .main-slider__info {
 	font-family: "Montserrat", sans-serif;
 }
@@ -161,7 +164,7 @@ body:not(.header-demo) .navbar-scrolling .navbar-right {
 }
 
 .section-doctors {
-	padding-bottom: 230px;
+	padding-bottom: 150px;
 }
 /*.section-doctors::before {*/
 	/*content: '';*/
@@ -198,9 +201,13 @@ body:not(.header-demo) .navbar-scrolling .navbar-right {
 	/*width: auto;*/
 /*}*/
 
+.entry-media img {
+	margin-left: auto;
+}
+
 /* Inner pages */
 .section-title-page {
-	background-image: url("../media/components/b-main-slider/bg-1.jpg");
+	background-image: url("../img/hero-bg.jpg");
 	background-position: center;
 }
 .block-paragraphs-1--custom {
@@ -238,6 +245,7 @@ body:not(.header-demo) .navbar-scrolling .navbar-right {
 
 .b-works-details__description-info--custom,
 .b-works-details__description-name--custom {
+	color: #000;
 	font-size: 11px;
 }
 
